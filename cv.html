@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+    <title>CV de Hichem Ouaret</title>
+    <style>
+        .backend {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            
+            gap: 15px;
+            margin: 40px auto;
+            background: #6b5dc5;
+            padding: 70px;
+        }
+
+        .left {
+            background: #6b5dc5;
+            grid-column: 1;
+        }
+
+        .right {
+            padding: 100px;
+            grid-column: 2;
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+        }
+
+        #imp {
+            border-block-end: 2px solid rgb(255, 255, 255);
+        }
+
+        .objective li {
+            font-size: 15px;
+        }
+
+        .left li {
+            font-size: 20px;
+        }
+
+        .objective {
+            grid-row: 1;
+        }
+        .project-web {
+            grid-row: 2;
+        }
+    </style>
+    <h1><strong>mon CV</strong></h1>
+</head>
+
+<body>
+    <div class="backend">
+        <div class="left">
+            <div class="pic-name">
+                <img class="pfp"
+                    src="https://media.istockphoto.com/id/2212478723/vector/gray-silhouette-avatar-for-male-profile-picture.jpg?s=612x612&w=0&k=20&c=FYTHRl2KzZkJcrQplAyub6mgRaa6dBMFSqTJhlgfjhg=">
+                <div class="name-infos">
+                    <h1 class="name">Ouaret hichem</h1>
+                    <br>
+                    <h2 class="activity">MI student</h2>
+                    <h2 class="birth">2007/01/15</h2>
+                    <p class="contact" id="imp"><b>email:ouarethichem@outlook.com</b></p>
+                    <p class="contact" id="imp"><b>num : 07 43 55 07 23</b></p>
+
+                </div>
+            </div>
+
+            <div class="languages">
+                <h3>languages (in order):</h3>
+                <ol>
+                    <li>kabyle</li>
+                    <li>arabic</li>
+                    <li>english</li>
+                    <li>french</li>
+                </ol>
+            </div>
+            <div class="prog_lang">
+                <h3>programming skills:</h3>
+                <ul>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>assembly language</li>
+                    <ul>
+                        <p><b>disk apps:</b></p>
+                        <li>excel</li>
+                        <li>microsoft word</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="objective">
+                <h3>my main goal in learning programming is </h3>
+                <ul>
+                    <li>build a solid career</li>
+                    <li>make games</li>
+                    <li>fullfill my desire in learning and understanding how things work</li>
+                </ul>
+
+
+            </div>
+            <div class="project-web">
+                <h3>you can find my github account below here:</h3>
+                <a href="https://github.com/hichem-sYv"><b>my account</b></a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
